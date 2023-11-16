@@ -7,12 +7,11 @@ public class CambioEscena : MonoBehaviour
 {
     public void Jugar()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("EscenaPrincipal", LoadSceneMode.Single);
     }
 
     public void Salir()
     {
-        Debug.Log("Saliendo");
         Application.Quit();
     }
 }
