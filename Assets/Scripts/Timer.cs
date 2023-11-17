@@ -43,7 +43,7 @@ public class Timer : MonoBehaviour
         {
             Debug.Log("Derrota");
             CambiarTemporizador(false);
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(2);
 
         }
     }

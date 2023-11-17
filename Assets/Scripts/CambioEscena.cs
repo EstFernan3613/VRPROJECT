@@ -14,5 +14,10 @@ public class CambioEscena : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void MenuPrincipal()
+    {
+        SceneManager.LoadScene(0);
+    }
 }
 
