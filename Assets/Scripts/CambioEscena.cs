@@ -7,7 +7,7 @@ public class CambioEscena : MonoBehaviour
 {
     public void Jugar()
     {
-        SceneManager.LoadScene("EscenaPrincipal", LoadSceneMode.Single);
+        SceneManager.LoadScene(1);
     }
 
     public void Salir()
