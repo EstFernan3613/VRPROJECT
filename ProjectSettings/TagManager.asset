@@ -6,6 +6,15 @@ TagManager:
   tags:
   - Cubo
   - Esfera
+  - ColisionadorCereal
+  - ColisionadorBowl
+  - ColisionadorLeche
+  - Cuchara
+  - Cereal
+  - Leche
+  - CerealCompleto
+  - CucharaCereal
+  - Boca
   layers:
   - Default
   - TransparentFX
