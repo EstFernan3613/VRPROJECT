@@ -7,6 +7,7 @@ public class BowlScript : MonoBehaviour
 {
     public GameObject cerealObject;
     public GameObject lecheObject;
+    public GameObject frutaObject;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -22,6 +23,13 @@ public class BowlScript : MonoBehaviour
             // Acciones a realizar cuando la leche colisiona con el tazón
             // Por ejemplo, activar un objeto
             lecheObject.SetActive(true);
+        }
+
+        if (other.CompareTag("ColisionadorFruta"))
+        {
+            // Acciones a realizar cuando la leche colisiona con el tazón
+            // Por ejemplo, activar un objeto
+            frutaObject.SetActive(true);
         }
     }
 }

@@ -7,6 +7,7 @@ public class CombinarIngredientesScript : MonoBehaviour
 {
     public GameObject lecheObject;
     public GameObject cerealObject;
+    public GameObject frutaObject;
     public AudioClip sonidoCombinacion;
 
     private bool ingredientesCombinados = false;
@@ -21,7 +22,7 @@ public class CombinarIngredientesScript : MonoBehaviour
     private void Update()
     {
         // Verifica si ambos ingredientes están activos al mismo tiempo
-        if (lecheObject.activeSelf && cerealObject.activeSelf && !ingredientesCombinados)
+        if (lecheObject.activeSelf && cerealObject.activeSelf && frutaObject.activeSelf && !ingredientesCombinados)
         {
             // Acciones a realizar cuando ambos ingredientes están activos al mismo tiempo
             // Por ejemplo, reproducir un sonido y cambiar el tag del objeto
